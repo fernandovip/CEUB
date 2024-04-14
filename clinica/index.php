@@ -17,7 +17,7 @@
 <body>
 
 <div class="container">
-  <!-- Cabeçalho do site -->
+  <!-- Cabeçalho do site com navegação -->
   <header class="header border-bottom lh-1 py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <!-- Logo da clínica -->
@@ -29,12 +29,20 @@
         <span>Contato: (61) 99999-1234</span>
       </div>
     </div>
-  </header>
+    <br>
 
+    <!-- Links de navegação para as seções -->
+    <nav class="nav justify-content-center">
+    <a class="btn btn-secondary my-2 mx-1" href="#welcome-section" style="width: 20%;">Bem-vindo</a>
+    <a class="btn btn-secondary my-2 mx-1" href="#services-section" style="width: 20%;">Serviços</a>
+    <a class="btn btn-secondary my-2 mx-1" href="#medical-section" style="width: 20%;">Atendimento Médico</a>
+    </nav>
+  
+  </header>
   <!-- Conteúdo principal -->
   <main class="container mt-4">
     <!-- Seção de boas-vindas -->
-    <div class="p-4 p-md-5 mb-4 bg-light rounded">
+    <div id="welcome-section" class="p-4 p-md-5 mb-4 bg-light rounded">
         <div class="row justify-content-center">
             <div class="col-md-8 text-center">
                 <h1 class="display-6 fst-italic">Seja Bem-vindo à</h1>
@@ -45,7 +53,7 @@
     </div>
 
     <!-- Chamada para os serviços -->
-    <div class="row mb-5">
+    <div id="services-section" class="row mb-5">
         <div class="col-md-6">    
             <h1>Conheça nossos serviços</h1>
         </div>
@@ -53,7 +61,7 @@
     
     <!-- Listagem de serviços -->
     <!-- Atendimento Médico -->
-    <div class="row mb-2">
+    <div id="medical-section" class="row mb-2">
       <div class="col-md-6">
         <div class="h-md-250">         
           <h2>Atendimento Médico</h2>

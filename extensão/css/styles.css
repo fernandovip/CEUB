@@ -1,0 +1,66 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Título */
+h1 {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Formulário de registro de compra */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botão de registro */
+button {
+    padding: 8px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Mensagem de status */
+#status {
+    margin-top: 10px;
+    font-size: 14px;
+    color: green;
+    text-align: center;
+}
+
+/* Canvas para gráficos */
+canvas {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}

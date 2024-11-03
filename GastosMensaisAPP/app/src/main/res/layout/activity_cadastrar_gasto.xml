@@ -1,0 +1,52 @@
+<!-- activity_cadastrar_gasto.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editDescricao"
+            android:hint="Descrição"
+            android:maxLength="50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editValor"
+            android:hint="Valor"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editData"
+            android:hint="Data (dd/MM/yyyy)"
+            android:inputType="date"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:text="Cadastrar"
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Novo botão de exclusão -->
+        <Button
+            android:id="@+id/btnExcluir"
+            android:text="Excluir"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" /> <!-- Tornamos o botão invisível para novos registros -->
+
+    </LinearLayout>
+</ScrollView>

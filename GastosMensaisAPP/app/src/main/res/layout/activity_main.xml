@@ -1,0 +1,36 @@
+<!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Botão Cadastrar -->
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:text="Cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="16dp" />
+
+    <!-- RecyclerView para a lista de gastos -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewGastos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Texto do Total Gasto -->
+    <TextView
+        android:id="@+id/textTotalGasto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Gasto: R$0.00"
+
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:padding="16dp" />
+</LinearLayout>

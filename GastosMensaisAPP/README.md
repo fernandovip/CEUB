@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-O aplicativo **Gastos Mensais** é uma aplicação Android desenvolvida para ajudar os usuários a registrarem e acompanharem seus gastos mensais. Através dele, é possível cadastrar, visualizar, editar e excluir gastos, fornecendo uma visão clara do total gasto até o momento. O aplicativo foi desenvolvido util![img_2.png](app/img_2.png)izando o SQLite para armazenar dados localmente. A interface é simples e intuitiva, garantindo uma experiência de uso agradável e prática.
+O aplicativo **Gastos Mensais** é uma aplicação Android desenvolvida para ajudar os usuários a registrarem e acompanharem seus gastos mensais. Através dele, é possível cadastrar, visualizar, editar e excluir gastos, fornecendo uma visão clara do total gasto até o momento. O aplicativo foi desenvolvido utilizando o SQLite para armazenar dados localmente. A interface é simples e intuitiva, garantindo uma experiência de uso agradável e prática.
 
 ## Autor
 

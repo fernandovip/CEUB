@@ -6,7 +6,7 @@ O aplicativo **Gastos Mensais** é uma aplicação Android desenvolvida para aju
 
 ## Autor
 
-- [Fernando Campina dos Santos]
+- Fernando Campina dos Santos
 
 ## Instruções de Instalação
 
